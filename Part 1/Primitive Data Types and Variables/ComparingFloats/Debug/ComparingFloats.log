@@ -1,0 +1,3 @@
+﻿  ComparingFloats.cpp
+c:\users\bask3t\desktop\c-basics\part 1\primitive data types and variables\comparingfloats\comparingfloats.cpp(16): warning C4305: 'initializing': truncation from 'double' to 'float'
+  ComparingFloats.vcxproj -> C:\Users\BaSk3T\Desktop\C-basics\Part 1\Primitive Data Types and Variables\Debug\ComparingFloats.exe

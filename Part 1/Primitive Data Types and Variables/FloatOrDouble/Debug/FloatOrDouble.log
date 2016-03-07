@@ -1,0 +1,4 @@
+﻿  FloatOrDouble.cpp
+c:\users\bask3t\desktop\c-basics\part 1\primitive data types and variables\floatordouble\floatordouble.cpp(17): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bask3t\desktop\c-basics\part 1\primitive data types and variables\floatordouble\floatordouble.cpp(19): warning C4305: 'initializing': truncation from 'double' to 'float'
+  FloatOrDouble.vcxproj -> C:\Users\BaSk3T\Desktop\C-basics\Part 1\Primitive Data Types and Variables\Debug\FloatOrDouble.exe
