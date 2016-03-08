@@ -1,0 +1,3 @@
+﻿  PointInACircle.cpp
+c:\users\bask3t\desktop\cpp-basics\operators and expressions\pointinacircle\pointinacircle.cpp(11): warning C4305: 'initializing': truncation from 'double' to 'float'
+  PointInACircle.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\PointInACircle.exe
