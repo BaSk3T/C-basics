@@ -1,2 +1,4 @@
-﻿  Null Values Arithmetic.cpp
-  Null Values Arithmetic.vcxproj -> C:\Users\BaSk3T\Desktop\C-basics\Part 1\Primitive Data Types and Variables\Debug\Null Values Arithmetic.exe
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Null Values Arithmetic.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  NullValuesArithmetic.cpp
+  Null Values Arithmetic.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Primitive Data Types and Variables\Debug\NullValuesArithmetic.exe

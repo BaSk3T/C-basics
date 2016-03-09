@@ -1,2 +1,4 @@
-﻿  DivideBy7And5.cpp
+﻿  stdafx.cpp
+  DivideBy7And5.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\DivideBy7And5.exe not found or not built by the last incremental link; performing full link
   DivideBy7And5.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\DivideBy7And5.exe

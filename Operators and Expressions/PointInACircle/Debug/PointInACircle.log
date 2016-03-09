@@ -1,3 +1,5 @@
-﻿  PointInACircle.cpp
-c:\users\bask3t\desktop\cpp-basics\operators and expressions\pointinacircle\pointinacircle.cpp(11): warning C4305: 'initializing': truncation from 'double' to 'float'
+﻿  stdafx.cpp
+  PointInACircle.cpp
+c:\users\bask3t\desktop\cpp-basics\operators and expressions\pointinacircle\pointinacircle.cpp(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\PointInACircle.exe not found or not built by the last incremental link; performing full link
   PointInACircle.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\PointInACircle.exe

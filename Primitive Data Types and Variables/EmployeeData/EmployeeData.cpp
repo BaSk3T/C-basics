@@ -2,8 +2,6 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 //A marketing company wants to keep record of its employees.Each record would have the following characteristics:
 //
 //First name
@@ -17,19 +15,19 @@ using namespace std;
 
 int main()
 {
-	string firstName = "James";
-	string lastName = "Raynor";
+	std::string firstName = "James";
+	std::string lastName = "Raynor";
 	short age = 37;
 	char gender = 'm';
-	string personalID = "8306112507";
-	string employeeNumber = "27560000";
+	std::string personalID = "8306112507";
+	std::string employeeNumber = "27560000";
 
-	cout << "First name: " << firstName << std::endl;
-	cout << "Last name: " << lastName << std::endl;
-	cout << "Age: " << age << std::endl;
-	cout << "Gender: " << gender << std::endl;
-	cout << "Personal ID: " << personalID << std::endl;
-	cout << "Employee number: " << employeeNumber << std::endl;
+	std::cout << "First name: " << firstName << std::endl;
+	std::cout << "Last name: " << lastName << std::endl;
+	std::cout << "Age: " << age << std::endl;
+	std::cout << "Gender: " << gender << std::endl;
+	std::cout << "Personal ID: " << personalID << std::endl;
+	std::cout << "Employee number: " << employeeNumber << std::endl;
 
     return 0;
 }

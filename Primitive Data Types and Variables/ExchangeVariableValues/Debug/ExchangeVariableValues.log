@@ -1,2 +1,4 @@
-﻿  ExchangeVariableValues.cpp
-  ExchangeVariableValues.vcxproj -> C:\Users\BaSk3T\Desktop\C-basics\Part 1\Primitive Data Types and Variables\Debug\ExchangeVariableValues.exe
+﻿  stdafx.cpp
+  ExchangeVariableValues.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Primitive Data Types and Variables\Debug\ExchangeVariableValues.exe not found or not built by the last incremental link; performing full link
+  ExchangeVariableValues.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Primitive Data Types and Variables\Debug\ExchangeVariableValues.exe

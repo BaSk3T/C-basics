@@ -1,2 +1,4 @@
-﻿  BooleanVariable.cpp
-  BooleanVariable.vcxproj -> C:\Users\BaSk3T\Desktop\C-basics\Part 1\Primitive Data Types and Variables\Debug\BooleanVariable.exe
+﻿  stdafx.cpp
+  BooleanVariable.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Primitive Data Types and Variables\Debug\BooleanVariable.exe not found or not built by the last incremental link; performing full link
+  BooleanVariable.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Primitive Data Types and Variables\Debug\BooleanVariable.exe

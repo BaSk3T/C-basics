@@ -1,2 +1,4 @@
-﻿  UnicodeCharacter.cpp
-  UnicodeCharacter.vcxproj -> C:\Users\BaSk3T\Desktop\C-basics\Part 1\Primitive Data Types and Variables\Debug\UnicodeCharacter.exe
+﻿  stdafx.cpp
+  UnicodeCharacter.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Primitive Data Types and Variables\Debug\UnicodeCharacter.exe not found or not built by the last incremental link; performing full link
+  UnicodeCharacter.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Primitive Data Types and Variables\Debug\UnicodeCharacter.exe

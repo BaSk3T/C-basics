@@ -2,8 +2,6 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 //Write a program that takes as input a four - digit number in format abcd(e.g. 2011) and performs the following :
 //Calculates the sum of the digits(in our example 2 + 0 + 1 + 1 = 4).
 //Prints on the console the number in reversed order : dcba(in our example 1102).
@@ -27,19 +25,19 @@ int main()
 
 	short sumOfDigits = firstDigit + secondDigit + thirdDigit + fourthDigit;
 
-	string fourthDigitAsText = std::to_string(fourthDigit);
-	string thirdDigitAsText = std::to_string(thirdDigit);
-	string secondDigitAsText = std::to_string(secondDigit);
-	string firstDigitAsText = std::to_string(firstDigit);
-	
-	string reversed = firstDigitAsText + secondDigitAsText + thirdDigitAsText + fourthDigitAsText;
-	string lastDigitInFirstPosition = firstDigitAsText + fourthDigitAsText + thirdDigitAsText + secondDigitAsText;
-	string secondAndThirdDigitExchanged = fourthDigitAsText + secondDigitAsText + thirdDigitAsText + firstDigitAsText;
+	std::string fourthDigitAsText = std::to_string(fourthDigit);
+	std::string thirdDigitAsText = std::to_string(thirdDigit);
+	std::string secondDigitAsText = std::to_string(secondDigit);
+	std::string firstDigitAsText = std::to_string(firstDigit);
 
-	cout << "Sum of digits: " << sumOfDigits << std::endl;
-	cout << "Number in reversed order: " << reversed << std::endl;
-	cout << "Last digit in first position: " << lastDigitInFirstPosition << std::endl;
-	cout << "Seonc and third digit exchanged: " << secondAndThirdDigitExchanged << std::endl;
+	std::string reversed = firstDigitAsText + secondDigitAsText + thirdDigitAsText + fourthDigitAsText;
+	std::string lastDigitInFirstPosition = firstDigitAsText + fourthDigitAsText + thirdDigitAsText + secondDigitAsText;
+	std::string secondAndThirdDigitExchanged = fourthDigitAsText + secondDigitAsText + thirdDigitAsText + firstDigitAsText;
+
+	std::cout << "Sum of digits: " << sumOfDigits << std::endl;
+	std::cout << "Number in reversed order: " << reversed << std::endl;
+	std::cout << "Last digit in first position: " << lastDigitInFirstPosition << std::endl;
+	std::cout << "Seonc and third digit exchanged: " << secondAndThirdDigitExchanged << std::endl;
 
     return 0;
 }

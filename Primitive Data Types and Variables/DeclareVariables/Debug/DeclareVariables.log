@@ -1,3 +1,5 @@
-﻿  DeclareVariables.cpp
-c:\users\bask3t\desktop\c-basics\part 1\primitive data types and variables\declarevariables\declarevariables.cpp(12): warning C4309: 'initializing': truncation of constant value
-  DeclareVariables.vcxproj -> C:\Users\BaSk3T\Desktop\C-basics\Part 1\Primitive Data Types and Variables\Debug\DeclareVariables.exe
+﻿  stdafx.cpp
+  DeclareVariables.cpp
+c:\users\bask3t\desktop\cpp-basics\primitive data types and variables\declarevariables\declarevariables.cpp(10): warning C4309: 'initializing': truncation of constant value
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Primitive Data Types and Variables\Debug\DeclareVariables.exe not found or not built by the last incremental link; performing full link
+  DeclareVariables.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Primitive Data Types and Variables\Debug\DeclareVariables.exe

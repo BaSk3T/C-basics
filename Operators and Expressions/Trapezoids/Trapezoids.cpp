@@ -1,8 +1,6 @@
 #include "stdafx.h"
 #include <iostream>
 
-using namespace std;
-
 //Write an expression that calculates trapezoid's area by given sides a and b and height h.
 
 int main()
@@ -13,9 +11,9 @@ int main()
 
 	float area = height * ((sideA + sideB) / 2);
 
-	cout << "Trapezoid with a: " << sideA << " b: " << sideB << " and hegiht: " << height << std::endl;
+	std::cout << "Trapezoid with a: " << sideA << " b: " << sideB << " and hegiht: " << height << std::endl;
 
-	cout << "Area: " << area << std::endl;
+	std::cout << "Area: " << area << std::endl;
 
     return 0;
 }

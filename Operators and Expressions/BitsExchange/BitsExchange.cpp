@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include <iostream>
-using namespace std;
 
 short getBitAtPositionInNumber(short position, unsigned int number);
 unsigned int changeBitAtPositionInNumber(short position, unsigned int number, int bit);
@@ -28,7 +27,7 @@ int main()
 	numberToChange = changeBitAtPositionInNumber(5, numberToChange, bit26);
 	numberToChange = changeBitAtPositionInNumber(26, numberToChange, bit5);
 
-	cout << "Result: " << numberToChange << std::endl;
+	std::cout << "Result: " << numberToChange << std::endl;
 
     return 0;
 }

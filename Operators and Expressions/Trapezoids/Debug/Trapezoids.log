@@ -1,5 +1,5 @@
 ﻿  Trapezoids.cpp
+c:\users\bask3t\desktop\cpp-basics\operators and expressions\trapezoids\trapezoids.cpp(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\bask3t\desktop\cpp-basics\operators and expressions\trapezoids\trapezoids.cpp(9): warning C4305: 'initializing': truncation from 'double' to 'float'
 c:\users\bask3t\desktop\cpp-basics\operators and expressions\trapezoids\trapezoids.cpp(10): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bask3t\desktop\cpp-basics\operators and expressions\trapezoids\trapezoids.cpp(11): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\bask3t\desktop\cpp-basics\operators and expressions\trapezoids\trapezoids.cpp(12): warning C4305: 'initializing': truncation from 'double' to 'float'
   Trapezoids.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\Trapezoids.exe

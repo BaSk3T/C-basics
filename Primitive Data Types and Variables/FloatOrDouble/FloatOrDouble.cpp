@@ -2,8 +2,6 @@
 #include <iostream>
 #include <limits>
 
-using namespace std;
-
 typedef std::numeric_limits<double> dbl;
 typedef std::numeric_limits<float> flt;
 
@@ -18,13 +16,13 @@ int main()
 	double thirdNumber = 8923.1234857;
 	float fourthNumber = 3456.091;
 
-	cout.precision(dbl::max_digits10);
-	cout << "Used double " << firstNumber << std::endl;
-	cout << "Used double " << thirdNumber << std::endl;
+	std::cout.precision(dbl::max_digits10);
+	std::cout << "Used double " << firstNumber << std::endl;
+	std::cout << "Used double " << thirdNumber << std::endl;
 
-	cout.precision(flt::max_digits10);
-	cout << "Used float " << secondNumber << std::endl;
-	cout << "Used float " << fourthNumber << std::endl;
+	std::cout.precision(flt::max_digits10);
+	std::cout << "Used float " << secondNumber << std::endl;
+	std::cout << "Used float " << fourthNumber << std::endl;
 
     return 0;
 }

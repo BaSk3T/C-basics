@@ -1,0 +1,3 @@
+﻿  SumOf3Numbers.cpp
+c:\users\bask3t\desktop\cpp-basics\console input and output\sumof3numbers\sumof3numbers.cpp(10): warning C4305: 'initializing': truncation from 'double' to 'float'
+  SumOf3Numbers.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Console Input And Output\Debug\SumOf3Numbers.exe

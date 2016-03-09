@@ -1,2 +1,4 @@
-﻿  FourDigitNumber.cpp
+﻿  stdafx.cpp
+  FourDigitNumber.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\FourDigitNumber.exe not found or not built by the last incremental link; performing full link
   FourDigitNumber.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\FourDigitNumber.exe

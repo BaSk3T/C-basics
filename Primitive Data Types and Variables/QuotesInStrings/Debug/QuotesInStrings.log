@@ -1,2 +1,4 @@
-﻿  QuotesInStrings.cpp
-  QuotesInStrings.vcxproj -> C:\Users\BaSk3T\Desktop\C-basics\Part 1\Primitive Data Types and Variables\Debug\QuotesInStrings.exe
+﻿  stdafx.cpp
+  QuotesInStrings.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Primitive Data Types and Variables\Debug\QuotesInStrings.exe not found or not built by the last incremental link; performing full link
+  QuotesInStrings.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Primitive Data Types and Variables\Debug\QuotesInStrings.exe

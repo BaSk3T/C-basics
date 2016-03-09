@@ -1,8 +1,6 @@
 #include "stdafx.h"
 #include <iostream>
 
-using namespace std;
-
 //Write an expression that extracts from given integer n the value of given bit at index p.
 
 int main()
@@ -13,7 +11,7 @@ int main()
 	int bitMask = 1 << bitToExtract;
 	int result = (numberToCheck & bitMask) >> bitToExtract;
 
-	cout << "Bit at:" << bitToExtract << " is: " << result << std::endl;
+	std::cout << "Bit at:" << bitToExtract << " is: " << result << std::endl;
 
     return 0;
 }

@@ -1,2 +1,4 @@
-﻿  BitwiseExtractBit3.cpp
+﻿  stdafx.cpp
+  BitwiseExtractBit3.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\BitwiseExtractBit3.exe not found or not built by the last incremental link; performing full link
   BitwiseExtractBit3.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\BitwiseExtractBit3.exe

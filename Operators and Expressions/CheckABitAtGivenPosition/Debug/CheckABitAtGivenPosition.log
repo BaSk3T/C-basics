@@ -1,2 +1,4 @@
-﻿  CheckABitAtGivenPosition.cpp
+﻿  stdafx.cpp
+  CheckABitAtGivenPosition.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\CheckABitAtGivenPosition.exe not found or not built by the last incremental link; performing full link
   CheckABitAtGivenPosition.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\CheckABitAtGivenPosition.exe

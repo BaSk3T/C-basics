@@ -1,2 +1,4 @@
-﻿  ExtractBitFromInteger.cpp
+﻿  stdafx.cpp
+  ExtractBitFromInteger.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\ExtractBitFromInteger.exe not found or not built by the last incremental link; performing full link
   ExtractBitFromInteger.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\ExtractBitFromInteger.exe

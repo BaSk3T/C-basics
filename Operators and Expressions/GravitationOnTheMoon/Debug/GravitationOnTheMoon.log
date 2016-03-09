@@ -1,2 +1,4 @@
-﻿  GravitationOnTheMoon.cpp
+﻿  stdafx.cpp
+  GravitationOnTheMoon.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\GravitationOnTheMoon.exe not found or not built by the last incremental link; performing full link
   GravitationOnTheMoon.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\GravitationOnTheMoon.exe

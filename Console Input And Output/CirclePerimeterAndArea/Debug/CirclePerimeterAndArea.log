@@ -1,0 +1,4 @@
+﻿  CirclePerimeterAndArea.cpp
+c:\users\bask3t\desktop\cpp-basics\console input and output\circleperimeterandarea\circleperimeterandarea.cpp(18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\bask3t\desktop\cpp-basics\console input and output\circleperimeterandarea\circleperimeterandarea.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  CirclePerimeterAndArea.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Console Input And Output\Debug\CirclePerimeterAndArea.exe

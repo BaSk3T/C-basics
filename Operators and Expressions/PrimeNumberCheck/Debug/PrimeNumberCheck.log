@@ -1,2 +1,4 @@
-﻿  PrimeNumberCheck.cpp
+﻿  stdafx.cpp
+  PrimeNumberCheck.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\PrimeNumberCheck.exe not found or not built by the last incremental link; performing full link
   PrimeNumberCheck.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Operators and Expressions\Debug\PrimeNumberCheck.exe
