@@ -3,8 +3,7 @@
 
 //Write a program that finds the biggest of three numbers.
 
-int main()
-{
+int main() {
 	float firstNumber;
 	float secondNumber;
 	float thirdNumber;
@@ -19,16 +18,13 @@ int main()
 	std::cout << "Enter third number: ";
 	std::cin >> thirdNumber;
 
-	if (firstNumber > secondNumber && firstNumber > thirdNumber)
-	{
+	if (firstNumber > secondNumber && firstNumber > thirdNumber) {
 		biggestNumber = firstNumber;
 	}
-	else if (secondNumber > firstNumber && secondNumber > thirdNumber)
-	{
+	else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
 		biggestNumber = secondNumber;
 	}
-	else if (thirdNumber > firstNumber && thirdNumber > secondNumber)
-	{
+	else if (thirdNumber > firstNumber && thirdNumber > secondNumber) {
 		biggestNumber = thirdNumber;
 	}
 

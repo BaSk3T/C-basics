@@ -4,8 +4,7 @@
 //Write a program that shows the sign(+, -or 0) of the product of three real numbers, without calculating it.
 //Use a sequence of if operators.
 
-int main()
-{
+int main() {
 	float firstNumber;
 	float secondNumber;
 	float thirdNumber;
@@ -19,32 +18,25 @@ int main()
 	std::cout << "Enter third number: ";
 	std::cin >> thirdNumber;
 
-	if (firstNumber == 0 || secondNumber == 0 || thirdNumber == 0)
-	{
+	if (firstNumber == 0 || secondNumber == 0 || thirdNumber == 0) {
 		std::cout << "0" << std::endl;
 	}
-	else if (firstNumber < 0 && secondNumber < 0 && thirdNumber < 0)
-	{
+	else if (firstNumber < 0 && secondNumber < 0 && thirdNumber < 0) {
 		std::cout << "-" << std::endl;
 	}
-	else if (firstNumber >= 0 && secondNumber < 0 && thirdNumber < 0)
-	{
+	else if (firstNumber >= 0 && secondNumber < 0 && thirdNumber < 0) {
 		std::cout << "+" << std::endl;
 	}
-	else if (firstNumber < 0 && secondNumber >= 0 && thirdNumber < 0)
-	{
+	else if (firstNumber < 0 && secondNumber >= 0 && thirdNumber < 0) {
 		std::cout << "+" << std::endl;
 	}
-	else if (firstNumber < 0 && secondNumber < 0 && thirdNumber >= 0)
-	{
+	else if (firstNumber < 0 && secondNumber < 0 && thirdNumber >= 0) {
 		std::cout << "+" << std::endl;
 	}
-	else if (firstNumber < 0 || secondNumber < 0 || thirdNumber < 0)
-	{
+	else if (firstNumber < 0 || secondNumber < 0 || thirdNumber < 0) {
 		std::cout << "-" << std::endl;
 	}
-	else
-	{
+	else {
 		std::cout << "+" << std::endl;
 	}
 

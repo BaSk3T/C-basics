@@ -3,8 +3,7 @@
 
 //Write a program that finds the biggest of five numbers by using only five if statements.
 
-int main()
-{
+int main() {
 	float firstNumber;
 	float secondNumber;
 	float thirdNumber;
@@ -28,24 +27,19 @@ int main()
 	std::cin >> fifthNumber;
 
 
-	if (firstNumber >= secondNumber && firstNumber >= thirdNumber && firstNumber >= fourthNumber && firstNumber >= fifthNumber)
-	{
+	if (firstNumber >= secondNumber && firstNumber >= thirdNumber && firstNumber >= fourthNumber && firstNumber >= fifthNumber) {
 		biggestNumber = firstNumber;
 	}
-	else if (secondNumber >= firstNumber && secondNumber >= thirdNumber && secondNumber >= fourthNumber && secondNumber >= fifthNumber)
-	{
+	else if (secondNumber >= firstNumber && secondNumber >= thirdNumber && secondNumber >= fourthNumber && secondNumber >= fifthNumber) {
 		biggestNumber = secondNumber;
 	}
-	else if (thirdNumber >= firstNumber && thirdNumber >= secondNumber && thirdNumber >= fourthNumber && thirdNumber >= fifthNumber)
-	{
+	else if (thirdNumber >= firstNumber && thirdNumber >= secondNumber && thirdNumber >= fourthNumber && thirdNumber >= fifthNumber) {
 		biggestNumber = thirdNumber;
 	}
-	else if (fourthNumber >= firstNumber && fourthNumber >= secondNumber && fourthNumber >= thirdNumber && fourthNumber >= fifthNumber)
-	{
+	else if (fourthNumber >= firstNumber && fourthNumber >= secondNumber && fourthNumber >= thirdNumber && fourthNumber >= fifthNumber) {
 		biggestNumber = fourthNumber;
 	}
-	else if (fifthNumber >= firstNumber && fifthNumber >= secondNumber && fifthNumber >= thirdNumber && fifthNumber >= fourthNumber)
-	{
+	else if (fifthNumber >= firstNumber && fifthNumber >= secondNumber && fifthNumber >= thirdNumber && fifthNumber >= fourthNumber) {
 		biggestNumber = fifthNumber;
 	}
 
