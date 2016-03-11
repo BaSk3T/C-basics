@@ -1,0 +1,3 @@
+﻿  Combinatorics.cpp
+c:\users\bask3t\desktop\cpp-basics\loops\combinatorics\combinatorics.cpp(31): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+  Combinatorics.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Loops\Debug\Combinatorics.exe
