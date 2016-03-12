@@ -3,8 +3,7 @@
 #include <string>
 #include <sstream>
 
-int main()
-{
+int main() {
 	float sum = 0;
 	std::string numbers;
 
@@ -18,8 +17,7 @@ int main()
 		std::string numberAsText;
 		iss >> numberAsText;
 
-		if (numberAsText == "")
-		{
+		if (numberAsText == "") {
 			continue;
 		}
 

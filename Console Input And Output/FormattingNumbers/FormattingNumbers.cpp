@@ -14,8 +14,7 @@
 //The number b should be printed with 2 digits after the decimal point, right aligned
 //The number c should be printed with 3 digits after the decimal point, left aligned.
 
-int main()
-{
+int main() {
 	int a;
 	float b;
 	float c;

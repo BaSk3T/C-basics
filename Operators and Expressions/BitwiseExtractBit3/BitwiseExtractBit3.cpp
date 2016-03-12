@@ -5,8 +5,7 @@
 //The bits are counted from right to left, starting from bit #0.
 //The result of the expression should be either 1 or 0.
 
-int main()
-{
+int main() {
 	unsigned int numberToCheck = 62241;
 	short bitMask = 1 << 3;
 

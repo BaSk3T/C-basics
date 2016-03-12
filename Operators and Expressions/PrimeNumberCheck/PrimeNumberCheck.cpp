@@ -5,35 +5,28 @@
 //(i.e.it is divisible without remainder only to itself and 1).
 //Note: You should check if the number is positive
 
-int main()
-{
+int main() {
 	int numberToCheck = 53;
 
 	std::cout << "Number: " << numberToCheck << " is prime: " << std::endl;
 
-	if (numberToCheck >= 0)
-	{
+	if (numberToCheck >= 0) {
 		int numbersDivisibleTo = 0;
 
-		for (int i = 1; i <= numberToCheck; i++)
-		{
-			if (numberToCheck % i == 0)
-			{
+		for (int i = 1; i <= numberToCheck; i++) {
+			if (numberToCheck % i == 0) {
 				numbersDivisibleTo++;
 			}
 		}
 
-		if (numbersDivisibleTo == 2)
-		{
+		if (numbersDivisibleTo == 2) {
 			std::cout << "true" << std::endl;
 		}
-		else
-		{
+		else {
 			std::cout << "false" << std::endl;
 		}
 	}
-	else
-	{
+	else {
 		std::cout << "false" << std::endl;
 	}
 

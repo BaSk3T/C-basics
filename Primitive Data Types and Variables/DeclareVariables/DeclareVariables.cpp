@@ -5,8 +5,7 @@
 //to represent the following values : 52130, -115, 4825932, 97, -10000.
 //Choose a large enough type for each number to ensure it will fit in it.Try to compile the code.
 
-int main()
-{
+int main() {
 	short firstNumber = 52130;
 	short secondNumber = -115;
 	int thirdNumber = 4825932;

@@ -3,8 +3,7 @@
 
 //Write an expression that extracts from given integer n the value of given bit at index p.
 
-int main()
-{
+int main() {
 	unsigned int numberToCheck = 62241;
 	short bitToExtract = 11;
 

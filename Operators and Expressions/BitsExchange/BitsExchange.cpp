@@ -6,8 +6,7 @@ unsigned int changeBitAtPositionInNumber(short position, unsigned int number, in
 
 //Write a program that exchanges bits 3, 4 and 5 with bits 24, 25 and 26 of given 32 - bit unsigned integer.
 
-int main()
-{
+int main() {
 	unsigned int numberToChange = 2369124121;
 	int bit3, bit4, bit5, bit24, bit25, bit26;
 
@@ -32,25 +31,21 @@ int main()
     return 0;
 }
 
-short getBitAtPositionInNumber(short position, unsigned int number)
-{
+short getBitAtPositionInNumber(short position, unsigned int number) {
 	int bitMask = 1 << position;
 	short result = (number & bitMask) >> position;
 
 	return result;
 }
 
-unsigned int changeBitAtPositionInNumber(short position, unsigned int number, int bit)
-{
+unsigned int changeBitAtPositionInNumber(short position, unsigned int number, int bit) {
 	unsigned int result;
 
-	if (bit == 0)
-	{
+	if (bit == 0) {
 		int bitMask = ~(1 << position);
 		result = bitMask & number;
 	}
-	else if (bit == 1)
-	{
+	else if (bit == 1) {
 		int bitMask = 1 << position;
 		result = bitMask | number;
 	}

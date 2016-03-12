@@ -5,8 +5,7 @@
 //Use Windows Calculator to find its hexadecimal representation.
 //Print the variable and ensure that the result is 254.
 
-int main()
-{
+int main() {
 	int hexadecimalRepresentation = 0xFE;
 
 	std::cout << "0xFE represented as decimal - " << hexadecimalRepresentation << std::endl;
