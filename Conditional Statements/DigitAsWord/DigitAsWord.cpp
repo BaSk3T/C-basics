@@ -6,11 +6,12 @@
 //Print “not a digit” in case of invalid input.
 //Use a switch statement.
 
-int main() {
+int main()
+{
 	std::string digitEnter;
 
 	std::cout << "Enter digit: ";
-	std::getline(std::cin, digitEnter);
+	std::cin >> digitEnter;
 
 	if (digitEnter.size() > 1) {
 		std::cout << "Not a digit!" << std::endl;

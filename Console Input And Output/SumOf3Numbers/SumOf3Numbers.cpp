@@ -3,7 +3,8 @@
 
 //Write a program that reads 3 real numbers from the console and prints their sum.
 
-int main() {
+int main()
+{
 	float firstNumber = 5.5;
 	float secondNumber = 4.5;
 	float thirdNumber = 20.1;

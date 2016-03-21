@@ -4,7 +4,8 @@
 //Write a program that enters from the console a positive integer n and prints all the numbers from 1 to n, on a single line,
 //separated by a space.
 
-int main() {
+int main()
+{
 	int number;
 
 	std::cout << "Enter number: ";

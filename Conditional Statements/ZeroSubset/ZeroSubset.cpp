@@ -9,7 +9,8 @@ bool isSubsetOfFiveNumbersIsZero(int firstNumber, int secondNumber, int thirdNum
 //We are given 5 integer numbers.Write a program that finds all subsets of these numbers whose sum is 0.
 //Assume that repeating the same subset several times is not a problem.
 
-int main() {
+int main()
+{
 	int a;
 	int b;
 	int c;
@@ -136,25 +137,29 @@ int main() {
     return 0;
 }
 
-bool isSubsetOfTwoNumbersIsZero(int firstNumber, int secondNumber) {
+bool isSubsetOfTwoNumbersIsZero(int firstNumber, int secondNumber)
+{
 	int result = firstNumber + secondNumber;
 
 	return result == 0;
 }
 
-bool isSubsetOfThreeNumbersIsZero(int firstNumber, int secondNumber, int thirdNumber) {
+bool isSubsetOfThreeNumbersIsZero(int firstNumber, int secondNumber, int thirdNumber)
+{
 	int result = firstNumber + secondNumber + thirdNumber;
 
 	return result == 0;
 }
 
-bool isSubsetOfFourNumbersIsZero(int firstNumber, int secondNumber, int thirdNumber, int fourthNumber) {
+bool isSubsetOfFourNumbersIsZero(int firstNumber, int secondNumber, int thirdNumber, int fourthNumber)
+{
 	int result = firstNumber + secondNumber + thirdNumber + fourthNumber;
 
 	return result == 0;
 }
 
-bool isSubsetOfFiveNumbersIsZero(int firstNumber, int secondNumber, int thirdNumber, int fourthNumber, int fifthNumbers) {
+bool isSubsetOfFiveNumbersIsZero(int firstNumber, int secondNumber, int thirdNumber, int fourthNumber, int fifthNumbers)
+{
 	int result = firstNumber + secondNumber + thirdNumber + fourthNumber + fifthNumbers;
 
 	return result == 0;

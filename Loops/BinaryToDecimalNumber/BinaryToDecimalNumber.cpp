@@ -6,24 +6,20 @@
 //The input is entered as string.The output should be a variable of type long.
 //Do not use the built - in.NET functionality.
 
-int main() {
+int main()
+{
 	long resultNumber = 0;
 	
 	std::string numberInBinary;
 
 	std::cout << "Enter number in binary numeric system: ";
-	std::getline(std::cin, numberInBinary);
+	std::cin >> numberInBinary;
 
-	int power = 1;
-	for (int i = numberInBinary.size() - 1; i >= 0; i--)
-	{
-		int sign = numberInBinary.at(i) - 48;
+	for (int i = 0; i < numberInBinary.size(); i++) {
+		signed char bit = numberInBinary[i] - '0';
 
-		if (sign == 1) {
-			resultNumber += sign * power;
-		}
-
-		power *= 2;
+		resultNumber <<= 1;
+		resultNumber |= bit;
 	}
 
 	std::cout << resultNumber << std::endl;

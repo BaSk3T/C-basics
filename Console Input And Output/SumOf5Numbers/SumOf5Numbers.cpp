@@ -3,12 +3,13 @@
 #include <string>
 #include <sstream>
 
-int main() {
+int main()
+{
 	float sum = 0;
 	std::string numbers;
 
 	std::cout << "Enter numbers seperated by space: ";
-	std::getline(std::cin, numbers);
+	std::cin >> numbers;
 
 	std::istringstream iss(numbers);
 

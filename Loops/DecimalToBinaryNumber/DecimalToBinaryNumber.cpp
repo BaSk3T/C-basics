@@ -2,7 +2,8 @@
 #include <iostream>
 #include <string>
 
-int main() {
+int main()
+{
 	int number;
 
 	std::cout << "Enter number in decimal numeric system: ";

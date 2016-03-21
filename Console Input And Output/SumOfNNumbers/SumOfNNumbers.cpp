@@ -3,7 +3,8 @@
 
 //Write a program that enters a number n and after that enters more n numbers and calculates and prints their sum.
 
-int main() {
+int main()
+{
 	int numberOfInputs;
 	float sum = 0;
 

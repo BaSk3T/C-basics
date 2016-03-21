@@ -4,18 +4,17 @@
 
 //Write a program that converts a number in the range[0…999] to words, corresponding to the English pronunciation
 
-int main() {
+int main()
+{
 	std::string number;
 
 	std::cout << "Enter number: ";
-	std::getline(std::cin, number);
+	std::cin >> number;
 
 	std::string result;
 
-	if (number.size() == 3)
-	{
-		switch (number[0])
-		{
+	if (number.size() == 3) {
+		switch (number[0]) {
 		case '1':
 			result = "one hundred";
 			break;
@@ -46,18 +45,17 @@ int main() {
 		default:
 			break;
 		}
-		if (number[2] != '0')
-		{
+
+		if (number[2] != '0') {
 			result += " and ";
 		}
-		switch (number[1])
-		{
+
+		switch (number[1]) {
 		case '0':
 			result += "";
 			break;
 		case '1':
-			switch (number[2])
-			{
+			switch (number[2]) {
 			case '1':
 				result += "eleven";
 				break;
@@ -116,11 +114,9 @@ int main() {
 		default:
 			break;
 		}
-		if (number[1] != '1')
-		{
-			switch (number[2])
-			{
 
+		if (number[1] != '1') {
+			switch (number[2]) {
 			case '0':
 				result += "";
 				break;
@@ -153,14 +149,12 @@ int main() {
 				break;
 			default:
 				break;
-
 			}
 		}
 	}
-	if (number.size() == 2)
-	{
-		switch (number[0])
-		{
+
+	if (number.size() == 2) {
+		switch (number[0]) {
 		case '0':
 			result += "";
 			break;
@@ -228,11 +222,9 @@ int main() {
 		default:
 			break;
 		}
-		if (number[0] != '1')
-		{
-			switch (number[1])
-			{
 
+		if (number[0] != '1') {
+			switch (number[1]) {
 			case '0':
 				result += "";
 				break;
@@ -269,10 +261,9 @@ int main() {
 			}
 		}
 	}
-	if (number.size() == 1)
-	{
-		switch (number[0])
-		{
+
+	if (number.size() == 1) {
+		switch (number[0]) {
 		case '0':
 			result += "zero";
 			break;

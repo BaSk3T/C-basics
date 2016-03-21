@@ -6,7 +6,8 @@ int random(int low, int high);
 
 //Write a program that enters 3 integers n, min and max(min != max) and prints n random numbers in the range[min...max].
 
-int main() {
+int main()
+{
 	int number;
 	int min;
 	int max;
@@ -39,6 +40,7 @@ int main() {
     return 0;
 }
 
-int random(int low, int high) {
+int random(int low, int high)
+{
 	return (rand() + time(0)) % (high - low + 1) + low;
 }

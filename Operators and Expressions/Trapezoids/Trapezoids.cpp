@@ -3,7 +3,8 @@
 
 //Write an expression that calculates trapezoid's area by given sides a and b and height h.
 
-int main() {
+int main()
+{
 	float sideA = 0.222;
 	float sideB = 0.333;
 	float height = 0.555;

@@ -1,10 +1,10 @@
 #include "stdafx.h"
 #include <iostream>
-#include <string>
 
 //Write a program that calculates with how many zeroes the factorial of a given number n has at its end.
 
-int main() {
+int main()
+{
 	int number;
 
 	std::cout << "Enter number: ";

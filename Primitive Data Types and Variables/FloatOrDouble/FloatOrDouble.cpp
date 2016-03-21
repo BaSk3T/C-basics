@@ -9,7 +9,8 @@ typedef std::numeric_limits<float> flt;
 //of type double: 34.567839023, 12.345, 8923.1234857, 3456.091 ?
 //Write a program to assign the numbers in variables and print them to ensure no precision is lost.
 
-int main() {
+int main()
+{
 	double firstNumber = 34.567839023;
 	float secondNumber = 12.345;
 	double thirdNumber = 8923.1234857;

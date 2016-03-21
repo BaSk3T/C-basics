@@ -4,7 +4,8 @@
 //Write a program that calculates n!/ k!for given n and k(1 < k < n < 100).
 //Use only one loop.
 
-int main() {
+int main()
+{
 	int n;
 	int k;
 
@@ -13,29 +14,20 @@ int main() {
 
 	std::cout << "Enter \"k\": ";
 	std::cin >> k;
-	
-	long factorialOfK = 1;
-	long factorialOfN = 1;
 
-	if (1 < k && n < 100) {
-		for (int i = 1; i <= n; i++) {
-			if (i <= k) {
-				factorialOfK *= i;
-			}
+	long factorial = 1;
 
-			factorialOfN *= i;
-		}
-
-		double result = factorialOfN / factorialOfK;
-
-		std::cout << result << std::endl;
+	if (k <= 1 || 100 <= n || n < k) {
+		std::cout << "1 < k < n < 100" << std::endl;
+		return 0;
 	}
-	else {
-		std::cout << "K cannot be bigger than N" << std::endl;
+
+	for (int i = k + 1; i <= n; i++) {
+		factorial *= i;
 	}
-	
 
+	std::cout << factorial << std::endl;
 
-    return 0;
+	return 0;
 }
 

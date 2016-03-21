@@ -3,7 +3,8 @@
 
 //Write an expression that checks for given integer if its third digit from right - to - left is 7.
 
-int main() {
+int main()
+{
 	int numberToCheck = 9999799;
 	int digit = (numberToCheck / 100) % 10;
 

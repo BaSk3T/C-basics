@@ -10,7 +10,8 @@
 //
 //© © © ©
 
-int main() {
+int main()
+{
 	char symbol = 0xA9;
 	
 	std::cout << "   " << symbol << std::endl;

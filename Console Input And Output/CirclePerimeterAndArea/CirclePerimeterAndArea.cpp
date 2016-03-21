@@ -7,7 +7,8 @@
 
 //Write a program that reads the radius r of a circle and prints its perimeter and area formatted with 2 digits after the decimal point.
 
-int main() {
+int main()
+{
 	float radius;
 	std::cout << "Radius: ";
 	std::cin >> radius;

@@ -1,2 +1,4 @@
-﻿  CheckForAPlayCard.cpp
+﻿  stdafx.cpp
+  CheckForAPlayCard.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Conditional Statements\Debug\CheckForAPlayCard.exe not found or not built by the last incremental link; performing full link
   CheckForAPlayCard.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Conditional Statements\Debug\CheckForAPlayCard.exe

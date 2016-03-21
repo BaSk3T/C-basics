@@ -7,7 +7,8 @@
 //If the score is between 7 and 9, the program multiplies it by 1000.
 //If the score is 0 or more than 9, the program prints “invalid score”.
 
-int main() {
+int main()
+{
 	int score;
 	int multiplier;
 

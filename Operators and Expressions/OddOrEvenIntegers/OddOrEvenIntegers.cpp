@@ -3,7 +3,8 @@
 
 //Write an expression that checks if given integer is odd or even.
 
-int main() {
+int main()
+{
 	int numberToCheck = -2;
 
 	if (numberToCheck % 2 == 0) {

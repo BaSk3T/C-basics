@@ -8,12 +8,13 @@ short getDecimalRepresentationOfHexadecimalDigit(char digit);
 //The input is entered as string.The output should be a variable of type long.
 //Do not use the built - in.NET functionality.
 
-int main() {
+int main()
+{
 	std::string hexadecimalNumber;
 
 	std::cout << "Enter number in hexadecimal numeric system: ";
 
-	std::getline(std::cin, hexadecimalNumber);
+	std::cin >> hexadecimalNumber;
 
 	short numberOfBaseSystem = 16;
 	short power = 0;
@@ -33,7 +34,8 @@ int main() {
 	return 0;
 }
 
-short getDecimalRepresentationOfHexadecimalDigit(char digit) {
+short getDecimalRepresentationOfHexadecimalDigit(char digit)
+{
 	short decimalRepresentationOfDigit;
 
 	switch (digit) {

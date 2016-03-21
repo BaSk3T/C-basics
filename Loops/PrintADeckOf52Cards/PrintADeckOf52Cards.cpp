@@ -8,8 +8,8 @@
 //Print each card face in its four possible suits : clubs, diamonds, hearts and spades.Use 2 nested for - loops
 //and a switch - case statement.
 
-int main() {
-
+int main()
+{
 	std::string card;
 
 	for (int i = 2; i <= 14; i++) {

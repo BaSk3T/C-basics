@@ -6,7 +6,8 @@
 //The input starts by the number n(alone in a line) followed by n lines, each holding an integer number.
 //The output is like in the examples below.
 
-int main() {
+int main()
+{
 	int numberOfNumbersToEnter;
 
 	std::cout << "Enter number of numbers you are going to enter: ";

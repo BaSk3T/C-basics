@@ -5,7 +5,8 @@
 //(i.e.it is divisible without remainder only to itself and 1).
 //Note: You should check if the number is positive
 
-int main() {
+int main()
+{
 	int numberToCheck = 53;
 
 	std::cout << "Number: " << numberToCheck << " is prime: " << std::endl;

@@ -7,10 +7,11 @@
 //Write a program that checks whether the product of the odd elements is equal to the product of the even elements.
 //Elements are counted from 1 to n, so the first element is odd, the second is even, etc.
 
-int main() {
+int main()
+{
 	std::string numbers;
 
-	std::getline(std::cin, numbers);
+	std::cin >> numbers;
 
 	std::istringstream iss(numbers);
 

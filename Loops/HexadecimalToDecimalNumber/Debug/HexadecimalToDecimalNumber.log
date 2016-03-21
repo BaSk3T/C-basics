@@ -1,3 +1,5 @@
-﻿  HexadecimalToDecimalNumber.cpp
-c:\users\bask3t\desktop\cpp-basics\loops\hexadecimaltodecimalnumber\hexadecimaltodecimalnumber.cpp(27): warning C4244: '+=': conversion from 'double' to 'unsigned __int64', possible loss of data
+﻿  stdafx.cpp
+  HexadecimalToDecimalNumber.cpp
+c:\users\bask3t\desktop\cpp-basics\loops\hexadecimaltodecimalnumber\hexadecimaltodecimalnumber.cpp(28): warning C4244: '+=': conversion from 'double' to 'unsigned __int64', possible loss of data
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Loops\Debug\HexadecimalToDecimalNumber.exe not found or not built by the last incremental link; performing full link
   HexadecimalToDecimalNumber.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Loops\Debug\HexadecimalToDecimalNumber.exe

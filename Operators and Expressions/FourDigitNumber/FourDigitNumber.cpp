@@ -9,7 +9,8 @@
 //Exchanges the second and the third digits : acbd(in our example 2101).
 //The number has always exactly 4 digits and cannot start with 0.
 
-int main() {
+int main()
+{
 	int number = 9876;
 	short firstDigit = number % 10;
 	number /= 10;

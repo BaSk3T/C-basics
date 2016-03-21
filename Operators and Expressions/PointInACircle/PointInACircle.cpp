@@ -3,7 +3,8 @@
 
 //Write an expression that checks if given point(x, y) is inside a circle K({ 0, 0 }, 2).
 
-int main() {
+int main()
+{
 	float x = 1;
 	float y = 1.655;
 	float r = 2;

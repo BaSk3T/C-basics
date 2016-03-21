@@ -10,10 +10,11 @@
 //and prints beer time or non - beer time according to the definition above or invalid time if the time cannot be parsed.Note :
 //You may need to learn how to parse dates and times.
 
-int main() {
+int main()
+{
 	std::string time;
 	std::cout << "Enter time: ";
-	std::getline(std::cin, time);
+	std::cin >> time;
 
 	std::string designator = time.substr(time.size() - 2, 2);
 	time.pop_back();

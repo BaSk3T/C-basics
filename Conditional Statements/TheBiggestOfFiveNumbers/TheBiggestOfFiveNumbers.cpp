@@ -3,7 +3,8 @@
 
 //Write a program that finds the biggest of five numbers by using only five if statements.
 
-int main() {
+int main()
+{
 	float firstNumber;
 	float secondNumber;
 	float thirdNumber;

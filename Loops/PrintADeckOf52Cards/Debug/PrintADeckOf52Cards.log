@@ -1,2 +1,4 @@
-﻿  PrintADeckOf52Cards.cpp
+﻿  stdafx.cpp
+  PrintADeckOf52Cards.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Loops\Debug\PrintADeckOf52Cards.exe not found or not built by the last incremental link; performing full link
   PrintADeckOf52Cards.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Loops\Debug\PrintADeckOf52Cards.exe

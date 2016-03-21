@@ -1,2 +1,4 @@
-﻿  TrailingZeroesInNFactorial.cpp
+﻿  stdafx.cpp
+  TrailingZeroesInNFactorial.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Loops\Debug\TrailingZeroesInNFactorial.exe not found or not built by the last incremental link; performing full link
   TrailingZeroesInNFactorial.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Loops\Debug\TrailingZeroesInNFactorial.exe

@@ -5,7 +5,8 @@
 //Use nested if statements.
 //Note: Don’t use arrays and the built - in sorting functionality.
 
-int main() {
+int main()
+{
 	float firstNumber;
 	float secondNumber;
 	float thirdNumber;

@@ -1,2 +1,4 @@
-﻿  NumberAsWords.cpp
+﻿  stdafx.cpp
+  NumberAsWords.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Conditional Statements\Debug\NumberAsWords.exe not found or not built by the last incremental link; performing full link
   NumberAsWords.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Conditional Statements\Debug\NumberAsWords.exe

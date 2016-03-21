@@ -3,7 +3,8 @@
 
 //Write a program that finds the biggest of three numbers.
 
-int main() {
+int main()
+{
 	float firstNumber;
 	float secondNumber;
 	float thirdNumber;

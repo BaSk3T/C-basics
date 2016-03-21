@@ -13,7 +13,8 @@
 //Declare the variables needed to keep the information for a single employee using appropriate primitive data types.Use descriptive names.
 //Print the data at the console.
 
-int main() {
+int main()
+{
 	std::string firstName = "James";
 	std::string lastName = "Raynor";
 	short age = 37;

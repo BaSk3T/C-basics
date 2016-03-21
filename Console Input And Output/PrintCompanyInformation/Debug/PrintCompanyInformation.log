@@ -1,2 +1,4 @@
-﻿  PrintCompanyInformation.cpp
+﻿  stdafx.cpp
+  PrintCompanyInformation.cpp
+  LINK : C:\Users\BaSk3T\Desktop\Cpp-basics\Console Input And Output\Debug\PrintCompanyInformation.exe not found or not built by the last incremental link; performing full link
   PrintCompanyInformation.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\Console Input And Output\Debug\PrintCompanyInformation.exe

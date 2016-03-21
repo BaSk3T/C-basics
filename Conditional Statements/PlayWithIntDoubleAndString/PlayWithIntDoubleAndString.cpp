@@ -7,7 +7,8 @@
 //If the variable is a string, the program appends * at the end.
 //Print the result at the console.Use switch statement.
 
-int main() {
+int main()
+{
 	int type;
 	std::string text;
 
@@ -17,8 +18,6 @@ int main() {
 
 	std::cout << "Please choose a type: ";
 	std::cin >> type;
-
-	std::cin.ignore();
 
 	switch (type) {
 	case 1:
@@ -39,7 +38,7 @@ int main() {
 		break;
 	case 3:
 		std::cout << "Please enter a string: ";
-		std::getline(std::cin, text);
+		std::cin >> text;
 
 		text += "*";
 		std::cout << "Asterisk added to string: " << text << std::endl;

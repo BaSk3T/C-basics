@@ -3,7 +3,8 @@
 
 //Write an expression that calculates rectangle’s perimeter and area by given width and height.
 
-int main() {
+int main()
+{
 	float width = 5;
 	float height = 5;
 

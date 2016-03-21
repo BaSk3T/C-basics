@@ -8,7 +8,8 @@ char getHexadecimalRepresentationOfDigit(short digit);
 //The input is entered as long.The output should be a variable of type string.
 //Do not use the built - in.NET functionality.
 
-int main() {
+int main()
+{
 	unsigned long long numberInDecimal;
 
 	std::cout << "Enter number in decimal numeric system: ";
@@ -48,7 +49,8 @@ int main() {
     return 0;
 }
 
-char getHexadecimalRepresentationOfDigit(short digit) {
+char getHexadecimalRepresentationOfDigit(short digit)
+{
 	char hexadecimalRepresentationOfDigit;
 
 	switch (digit) {

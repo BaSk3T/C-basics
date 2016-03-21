@@ -7,7 +7,8 @@ int getRandomIndex(int number);
 
 //Write a program that enters in integer n and prints the numbers 1, 2, …, n in random order.
 
-int main() {
+int main()
+{
 	int number;
 
 	std::cout << "Enter number: ";
@@ -43,6 +44,7 @@ int main() {
     return 0;
 }
 
-int getRandomIndex(int number) {
+int getRandomIndex(int number)
+{
 	return (std::rand() + +time(0)) % number;
 }
