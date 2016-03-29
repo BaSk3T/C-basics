@@ -1,0 +1,8 @@
+﻿  GSMCallHistoryTest.cpp
+c:\users\bask3t\desktop\cpp-basics\definingclasses\defineclass\gsmcallhistorytest.cpp(23): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+c:\users\bask3t\desktop\cpp-basics\definingclasses\defineclass\gsmcallhistorytest.cpp(38): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  GSM.cpp
+c:\users\bask3t\desktop\cpp-basics\definingclasses\defineclass\gsm.cpp(113): warning C4018: '<': signed/unsigned mismatch
+  DefineClass.cpp
+  Generating Code...
+  DefineClass.vcxproj -> C:\Users\BaSk3T\Desktop\Cpp-basics\DefiningClasses\Debug\DefineClass.exe

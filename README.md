@@ -6,3 +6,4 @@
   * Loops: https://github.com/TelerikAcademy/CSharp-Part-1/blob/2015/6.%20Loops/README.md
   * Arrays: https://github.com/TelerikAcademy/CSharp-Part-2/blob/2015/01.%20Arrays/README.md
   * Multidimensional Arrays: https://github.com/TelerikAcademy/CSharp-Part-2/blob/2015/02.%20Multidimensional%20Arrays/README.md
+  * Defining Classes: https://github.com/TelerikAcademy/Object-Oriented-Programming/blob/master/01.%20Defining-Classes-Part-1/homework/README.md
